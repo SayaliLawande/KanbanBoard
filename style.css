@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.toolbox-cont{
+    background-color:#e6e6e6;
+    height:100px;
+    display:flex;
+    padding-top:20px;
+}
+
+.toolbox-priority-cont{
+    background-color:#b3b3b3;
+    width:300px;
+    height:70px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.colour{
+    width:40px;
+    height:30px;
+    background-color:#b3b3b3;
+}
+
+.colour:hover{
+    background-color:#4BB543;
+}
+
+.lightpink{
+    background-color:#F7D6F4;
+}
+
+.lightyellow{
+    background-color:#fbf7a3;
+}
+
+.lightgreen{
+    background-color:#a9ff00;
+}
+
+.lightblue{
+    background-color:#c4f9f6;
+}
+
+.action-btn-cont{
+     display:flex;
+     background-color:#b3b3b3;
+     height:70px;
+     width:100px;
+     margin-left:30px;
+}
+
+.add_btn{
+    color : #333333;
+    font-size: 30px;
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.add_btn:hover{
+    background-color:#4BB543;
+}
+
+.remove_btn{
+    color : #333333;
+    font-size: 30px;
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.remove_btn:hover{
+    background-color:#4BB543;
+}
+
+.priority-colour {
+    height: 48px;
+    width: 80px;
+}
+
+.priority-colours-container{
+    height:48px;
+    width:80px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    width:25%;
+    height:100%;
+    background-color:#cccccc;
+    border:1px solid #4c4c4c;
+}
+
+.active{
+    border: 4px solid #ff9224;
+}
+
+.main-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:32px;
+    margin:20px;
+}
+
+.modal-cont{
+    height:50vh;
+    width:45vw;
+    display:flex;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:none;
+}
+
+.textArea-cont{
+    width:75%;
+    outline:none;
+    height:100%;
+    background-color:#cccccc;
+    resize:none;
+    border:1px solid #4c4c4c;
+    font-size : 30px;
+}
+
+.ticket-cont{
+    height:190px;
+    width:200px;
+    border: 1px solid grey;
+    position:relative;
+}
+
+.ticket-colour{
+    height:16px;
+}
+
+.ticket-id{
+    background-color:white;
+    border-top : 1px solid grey;
+    border-bottom : 1px solid grey;
+}
+
+.ticket-lock{
+    position:absolute;
+    right:5px;
+    bottom:5px;
+}

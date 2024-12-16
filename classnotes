@@ -1,0 +1,17 @@
+HTML
+1.top nav bar - html
+2. we need colour icons and + button and x button
+3. on click of + button, a modal opens up to add the note.
+4. In modal, we need textarea, different colour selection strip
+5. Task card on display - top colour stripe, text description area, lock icon, unlock icon, unique id strip
+
+FUNCTIONALITY JS
+1.Click event on add button
+2.Click event on colour widget
+3.key down event on enter down button
+4.Click event on top strip of task card
+5.Click event on lock/unlock item
+6.Click event on x button
+7.Click on top colour widget items
+8.Double click on top colour widget items
+9.Click task card to remove the task after x button
